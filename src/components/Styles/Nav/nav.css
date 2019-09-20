@@ -1,0 +1,95 @@
+
+nav{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 30px 50px 0px 50px; 
+}
+
+@media(max-width: 461px){
+    nav{
+        padding: 10px 10px;  
+    }
+}
+
+nav div{
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+}
+
+nav h2 {
+    font-size: 27px; 
+    letter-spacing: 2px; 
+    padding-left: 35px; 
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+@media(max-width: 461px){
+    nav h2{
+        padding: 0px; 
+        font-size: 22px;
+    }
+}
+
+
+.mobile-envelope{
+    display: none; 
+}
+
+@media(max-width: 617px){
+    .mobile-envelope{
+        display: flex; 
+        padding: 0px;  
+    }
+    .mobile-nav-header{
+      width: 100%;
+      justify-content: space-between;}
+  }
+
+
+
+
+/*--------------------ICONS-------------------------------------------------------------*/
+
+i{
+    font-size: 30px;  
+    cursor: pointer; 
+}
+
+.fab{
+    padding-left: 25px; 
+    color: white;
+}
+
+.fab:hover{
+  color: darkblue; 
+}
+
+.far:hover{
+  color: darkblue
+}
+
+@media(max-width: 621px){
+    .fab{
+        display: none;  
+        padding-left: 0px; 
+    }
+}
+
+.far{
+    padding-left: 25px; 
+    font-size: 33px; 
+}
+
+@media(max-width: 461px){
+    .far{
+        padding-left: 0px;
+    }  
+}
+
+@media(max-width: 621px){
+    .desktop-envelope{
+        display: none; 
+    }
+}
