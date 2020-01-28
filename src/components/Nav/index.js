@@ -23,7 +23,11 @@ export default class Navigation extends React.Component{
             <div>
                 <nav> 
                     <div className='mobile-nav-header'> 
-                      <i className="fas fa-bars" onClick={this.props.updateHandler} name='open'></i>
+                      <div className='hamburger-container' onClick={this.props.updateHandler} name='open'> 
+                        <div className="bar bar1"></div> 
+                        <div className="bar bar2"></div>
+                        <div className="bar bar3"></div> 
+                     </div>  
                       <h2>Ryan McLaughlin</h2>
                       
                         <i className="far fa-envelope mobile-envelope"></i>
@@ -48,3 +52,5 @@ export default class Navigation extends React.Component{
         )
     }
 }
+
+
