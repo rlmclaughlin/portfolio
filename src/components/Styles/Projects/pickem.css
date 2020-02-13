@@ -34,35 +34,28 @@
 /*--------------------Row 1 Content-------------------------------------------------------*/
 
 .row-1{
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-evenly; 
     width: 100%; 
     padding: 20px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 
-
-.row-1 div{
+.section-2{
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
-    max-width: 270px; 
-    width: 45%; 
 }
 
-@media(max-width: 1150px){
-    .row-1 div{
-        width: 100%; 
-    }
-}
 
-.row-1 div h2{
+.section-2 h2{
     text-decoration: underline; 
     text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue; 
 }
 
-.row-1 div p{
+.section-2 p{
     letter-spacing: 1px; 
     line-height: 1.5; 
     font-weight: 600; 
@@ -72,18 +65,21 @@
     letter-spacing: 1.5px; 
 }
 
-@media(max-width: 1150px){
-    .row-1 div p{
-       font-size: 15px;  
+@media(min-width: 300px){
+    .section-2 p{
+        padding-left: 0px; 
+        font-size: 13px;
     }
 }
+
+
 /*--------------------------------------Row-1 Image-----------------------------*/
 
 .showcase-image{
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
-    max-width: 270px; 
+    max-width: 500px; 
     width: 100%; 
     height: 200px; 
 }
@@ -97,22 +93,55 @@
 @media(max-width: 857px){
     .showcase-image{
         margin-top: 20px; 
-        height: 100%; 
     }
 }
 
-@media(max-width: 857px){
-    .pickem-img{
-        height: 100px;  
+@media(min-width: 300px){
+    .showcase-image{
+        width: 96%;  
     }
 }
 
-@media(max-width: 857px){
-    .pickem-img-2{
-        height: 100px;  
+
+.showcase-image-2{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    max-width: 200px; 
+    width: 100%; 
+    height: 200px; 
+    padding-right: 5%; 
+}
+
+@media(min-width: 300px){
+    .showcase-image-2{
+        width: 96%;  
+        padding-right: 0%; 
     }
 }
 
+@media(min-width: 550px){
+    .showcase-image-2{
+        width: 45%;
+        padding-right: 5%;
+    }
+}
+
+@media(min-width: 738px){
+    .showcase-image-2{
+        width: 100%;
+        max-width: 420px; 
+        padding: 0%; 
+    }
+}
+
+@media(min-width: 825px){
+    .showcase-image-2{    
+        padding-right: 5%; 
+        width: 45%;
+        max-width: 200px; 
+    }
+}
 
 .pickem-img{
     background: url('../../Images/pickem-home.jpg');
@@ -141,29 +170,76 @@
 .row-2{
     display: flex; 
     flex-wrap: wrap; 
-    justify-content: space-evenly; 
     flex-direction: row-reverse;
+    justify-content: space-around;
     width: 100%; 
     padding: 20px; 
-    
 }
 
-.row-2 div{
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    width: 45%; 
-    max-width: 270px; 
-}
-
-@media(max-width: 857px){
-    .row-2 div{
-        margin-bottom: 0px; 
-        width: 100%; 
+@media(min-width: 320px){
+    .row-2{
+        align-items: center; 
+        width: 100%;
     }
 }
 
-.row-2 div h2{
+@media(min-width: 550px){
+    .row-2{
+        align-items: center; 
+        width: 89%;
+    }
+}
+@media(min-width: 738px){
+    .row-2{
+        width: 100%;
+    }
+}
+
+@media(min-width: 825px){
+    .row-2{
+        width: 89%
+    }
+}
+
+
+
+.list{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 50%; 
+}
+
+@media(min-width: 300px){
+    .list{
+        width: 100%; 
+        margin-top: 20px; 
+        justify-content: space-evenly;
+    }
+}
+
+@media(min-width: 550px){
+    .list{
+       width: 50%; 
+    }
+}
+
+@media(min-width: 680px){
+    .list{
+        width: 55%; 
+    }
+}
+
+
+
+
+
+.list p{
+    margin-right: 10px; 
+}
+
+
+.row-2 h2{
     text-decoration: underline;
     text-align: center; 
     width: 100%; 
@@ -172,11 +248,7 @@
     text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue; 
 }
 
-@media(max-width: 450px){
-    .row-2 div{
-        width: 100%; 
-    }
-}
+
 
 /*----------------------------------Row-2 list--------------------------------------------------------------------------*/
 .row-2 ul{
@@ -185,9 +257,7 @@
     line-height: 1.5; 
 }
 
-.built-using-list{
-    padding-right: 25px; 
-}
+
 
 @media(max-width: 1150px){
     .row-2 ul{
@@ -213,4 +283,8 @@
     text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue;
     text-decoration: underline;
      
+}
+
+.section-2 span{
+    width: 100%;
 }
