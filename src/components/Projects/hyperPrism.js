@@ -16,7 +16,7 @@ export default class MariannasWeb extends React.Component{
                     <img alt='pickem website logo' className='pickem-img'></img> 
                   </div>
                   <div className='section-2'>
-                    <h2>What is Mariannas Web</h2>
+                    <h2>What is Mariannas Web?</h2>
                     <p>Mariannas Web is a news aggregation feed that provides articles from a variety of sources
                        as well sections that are populated entirely by its users. The site includes a personal dashboard for 
                        members that provides access to a private feed, a customizable feed, and the ability to post articles. 
