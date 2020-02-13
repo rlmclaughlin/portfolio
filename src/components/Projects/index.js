@@ -2,6 +2,8 @@ import React from 'react'
 import '../Styles/Projects/Projects.css'
 import {Link} from 'react-router-dom'
 
+const image = require('./mw-image2.PNG')
+
 export default class Projects extends React.Component{
 
     render(){
@@ -21,7 +23,7 @@ export default class Projects extends React.Component{
               <div className='project'>
                 <h1>Mariannas Web</h1>  
                 <div className='project-image'>
-                  <img alt='hyper prism site' className='project-img2'></img> 
+                  <img alt='hyper prism site' src={image} className='project-img2'/>
                 </div>
                 <p>News for the 21st century</p>
                 <Link to='/mariannasWeb'> Mariannas Web</Link>
