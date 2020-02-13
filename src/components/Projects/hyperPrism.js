@@ -4,7 +4,8 @@ import '../Styles/Projects/hyperprism.css'
 const image1 = require('./mw-image.PNG')
 const image2 = require('./mw-image2.PNG')
 const image3 = require('./mw-image3.PNG')
-
+const image4 = require('./mw-image4.png')
+const image5 = require('./mw-image5.png')
 
 export default class MariannasWeb extends React.Component{
 
@@ -18,8 +19,7 @@ export default class MariannasWeb extends React.Component{
                 </div> 
                 <div className='row-1'>
                   <div className='showcase-image'>
-                    <img alt='pickem website logo' src={image1} className='pickem-img' /> 
-                    <img alt='mariannasweb-image-2' src={image2} className='pickem-img' /> 
+                    <img alt='pickem website logo' src={image5} className='pickem-img' style={{height:'150px'}} /> 
                   </div>
                   <div className='section-2'>
                     <h2>What is Mariannas Web?</h2>
@@ -39,7 +39,7 @@ export default class MariannasWeb extends React.Component{
 
                 <div className='row-2'>
                   <div className='showcase-image-2'>
-                    <img alt='hey' className='pickem-img-2'/>
+                    <img alt='hey' src={image1} className='pickem-img-2'/>
                   </div>                 
                   <div className='list'>
                     <h2>Built Using</h2>
@@ -66,6 +66,7 @@ export default class MariannasWeb extends React.Component{
                 </div>
                 <div className='contributions-container'>
                   <h2>Contributions</h2> 
+                  <p>I created and coded the entire site.</p> 
                 </div> 
             </div> 
         )

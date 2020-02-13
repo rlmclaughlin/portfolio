@@ -84,6 +84,7 @@
     max-width: 500px; 
     width: 100%; 
     height: 200px; 
+    overflow:hidden;
 }
 
 @media(max-width: 957px){
@@ -114,6 +115,7 @@
     width: 100%; 
     height: 200px; 
     padding-right: 5%; 
+    overflow:hidden;
 }
 
 @media(min-width: 300px){
@@ -154,10 +156,6 @@
     background-position: bottom;
     background-size: cover; 
     background-repeat: no-repeat; 
-    border-color:rgb(0, 68, 255);
-    box-shadow: 0px 1px 3px 2px  rgb(226, 2, 96),
-    2px 3px 1px 0px purple;
-     
 }
 
 
@@ -167,9 +165,6 @@
     background-position: bottom;
     background-size: cover; 
     background-repeat: no-repeat; 
-    border-color:rgb(0, 68, 255);
-    box-shadow: 0px 1px 3px 2px  rgb(226, 2, 96),
-    2px 3px 1px 0px purple;
 }
 
 /*----------------------------------------Row 2----------------------------------*/
@@ -207,8 +202,6 @@
     }
 }
 
-
-
 .list{
     display: flex; 
     flex-wrap: wrap; 
@@ -235,10 +228,6 @@
         width: 50%; 
     }
 }
-
-
-
-
 
 .list p{
     margin-right: 10px; 
@@ -283,6 +272,9 @@
     flex-wrap: wrap; 
     justify-content: center; 
     width: 100%; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .contributions-container h2{
