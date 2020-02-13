@@ -7,7 +7,7 @@ export default class MariannasWeb extends React.Component{
     render(){
         return(
             <div className='showcase-container'>
-                <h1>Pickem</h1>
+                <h1>Mariannas Web</h1>
                 <div className='showcase-hr'> 
                   <hr className='hr'/>
                 </div> 
@@ -16,12 +16,14 @@ export default class MariannasWeb extends React.Component{
                     <img alt='pickem website logo' className='pickem-img'></img> 
                   </div>
                   <div className='section-2'>
-                    <h2>What is Pickem?</h2>
-                    <p>Pick Em is a investor application that makes it easier to research stocks and make 
-                       better investment decisions. Our easy to use app provides both beginner and sophisticated
-                       investors with an automated system that analyzes key financial indicators. Pickem will 
-                       allow the customer to determine whether a buy signal is warranted.</p> 
-                    <a href='https://getpickem.co/'>Visit Site</a> 
+                    <h2>What is Mariannas Web</h2>
+                    <p>Mariannas Web is a news aggregation feed that provides articles from a variety of sources
+                       as well sections that are populated entirely by its users. The site includes a personal dashboard for 
+                       members that provides access to a private feed, a customizable feed, and the ability to post articles. 
+                       Come join the experiment designed to break you out of your echo chamber and discover fresh perspectives. 
+                       
+                     </p> 
+                    <a href='https://www.mariannasweb.com/'>Visit Site</a> 
                   </div> 
 
                 </div> 
@@ -43,13 +45,12 @@ export default class MariannasWeb extends React.Component{
                       <div style={{paddingRight:"20px"}}> 
                         <ul> 
                           <li>Node.js</li> 
-                          <li>Stripe</li> 
-                          <li>Firebase</li> 
+                          <li>Axios</li> 
                           <li>Postgres</li>
-                          <li>UI</li> 
+                          <li>Bcrypt.js</li> 
                         </ul> 
                       </div> 
-                     <a style={{width: '100%', textAlign: 'center' }}href='https://github.com/Lambda-School-Labs/labspt2-investor-data-app'>Github Repo</a> 
+                     <a style={{width: '100%', textAlign: 'center' }}href='https://github.com/mariannas-web'>Github Repo</a> 
                      
                     </div> 
 
