@@ -19,12 +19,12 @@ export default class Projects extends React.Component{
                 <Link to='pickem'>Visit Pickem</Link>
               </div>  
               <div className='project'>
-                <h1>Hyper Prism</h1>  
+                <h1>Mariannas Web</h1>  
                 <div className='project-image'>
                   <img alt='hyper prism site' className='project-img2'></img> 
                 </div>
-                <p>A game of intuition</p>
-                <Link to='/hyperPrism'> Hyper Prism</Link>
+                <p>News for the 21st century</p>
+                <Link to='/mariannasWeb'> Mariannas Web</Link>
               </div>   
             </div> 
         )

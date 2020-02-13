@@ -9,7 +9,7 @@ import Skills from './components/Skills/index.js'
 import Projects from './components/Projects/index.js'
 import Blog from './components/Blog/index.js'
 import Contact from './components/Contact/index.js'
-import HyperPrism from './components/Projects/hyperPrism'
+import MariannasWeb from './components/Projects/hyperPrism'
 import Pickem from './components/Projects/pickem'
 
 class App extends React.Component{
@@ -33,7 +33,7 @@ class App extends React.Component{
                   <Route exact path='/Projects' component={Projects}/>
                   <Route exact path='/Blog' component={Blog}/>
                   <Route exact path='/Contact' component={Contact}/>
-                  <Route exact path='/hyperPrism' component={HyperPrism}/>
+                  <Route exact path='/mariannasWeb' component={MariannasWeb}/>
                   <Route exact path='/pickem' component={Pickem}/> 
               </div>   
           </div>  
