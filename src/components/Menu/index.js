@@ -11,7 +11,6 @@ export default class Menu extends React.Component{
                 <Link to='/About' onClick={this.props.screenHandler}>About Me</Link>
                 <Link to='/Skills'>Skills</Link>
                 <Link to='Projects'>Projects</Link>
-                <Link to='Blog'>Blog</Link>
                 <Link to='Contact'>Contact</Link>    
             </div> 
         )
