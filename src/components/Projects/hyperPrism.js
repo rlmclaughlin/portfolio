@@ -1,6 +1,11 @@
 import React from 'react'
 import '../Styles/Projects/hyperprism.css'
 
+const image1 = require('./mw-image.PNG')
+const image2 = require('./mw-image2.PNG')
+const image3 = require('./mw-image3.PNG')
+
+
 export default class MariannasWeb extends React.Component{
 
 
@@ -13,7 +18,8 @@ export default class MariannasWeb extends React.Component{
                 </div> 
                 <div className='row-1'>
                   <div className='showcase-image'>
-                    <img alt='pickem website logo' className='pickem-img'></img> 
+                    <img alt='pickem website logo' src={image1} className='pickem-img' /> 
+                    <img alt='mariannasweb-image-2' src={image2} className='pickem-img' /> 
                   </div>
                   <div className='section-2'>
                     <h2>What is Mariannas Web?</h2>
