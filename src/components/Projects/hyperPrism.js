@@ -3,8 +3,9 @@ import '../Styles/Projects/hyperprism.css'
 
 const image1 = require('./mw-image.PNG')
 const imageThumb = require('./mw-image-thumb.png')
-export default class MariannasWeb extends React.Component{
 
+
+export default class MariannasWeb extends React.Component{
 
     render(){
         return(
@@ -22,17 +23,14 @@ export default class MariannasWeb extends React.Component{
                     <p>Mariannas Web is a news aggregation feed that provides articles from a variety of sources
                        as well sections that are populated entirely by its users. The site includes a personal dashboard for 
                        members that provides access to a private feed, a customizable feed, and the ability to post articles. 
-                       Come join the experiment designed to break you out of your echo chamber and discover fresh perspectives. 
-                       
+                       Come join the experiment designed to break you out of your echo chamber and discover fresh perspectives.   
                      </p> 
                     <a href='https://www.mariannasweb.com/'>Visit Site</a> 
                   </div> 
-
                 </div> 
                 <div className='showcase-hr'> 
                   <hr className='hr'/>
                 </div>
-
                 <div className='row-2'>
                   <div className='showcase-image-2'>
                     <img alt='hey' src={image1} className='pickem-img-2'/>
@@ -43,19 +41,18 @@ export default class MariannasWeb extends React.Component{
                         <li>HTML/CSS</li> 
                         <li>Javascript</li> 
                         <li>React</li> 
+                        <li>Axios</li>
                       </ul>
                       <div style={{paddingRight:"20px"}}> 
                         <ul> 
                           <li>Node.js</li> 
-                          <li>Axios</li> 
-                          <li>Postgres</li>
                           <li>Bcrypt.js</li> 
+                          <li>Postgres</li>
+                          <li>Facebook API</li> 
                         </ul> 
                       </div> 
-                     <a style={{width: '100%', textAlign: 'center' }}href='https://github.com/mariannas-web'>Github Repo</a> 
-                     
+                     <a style={{width: '100%', textAlign: 'center' }}href='https://github.com/mariannas-web'>Github Repo</a>                     
                     </div> 
-
                 </div>
                 <div className='showcase-hr'> 
                   <hr className='hr'/>
