@@ -11,7 +11,6 @@ export default class About extends React.Component{
                 <h1>About Me</h1> 
                 <span className='content-mobile'> 
                   <p> Name: Ryan McLaughlin <br/>
-                      Age: 32 <br /> 
                       Occupation: Web Developer </p> 
                 </span>  
               </div> 
@@ -39,7 +38,7 @@ export default class About extends React.Component{
                   Lambda is a 9+ month computer science and software engineering program that provides an immersive hands-on curriculum with a focus on computer science, and fullstack web development.
                   <br/> 
                   <br/> 
-                  I entered the program with a minimal amount of coding knowledge but evolved into a full stack developer by the end of the cirriculum . I still find myself absolutely stunned when I reflect on all of the things i've learned and utilized in a short amount of time.
+                  I entered the program with a minimal amount of coding knowledge but evolved into a full stack developer by the end of the cirriculum. I still find myself absolutely stunned when I reflect on all of the things i've learned and utilized in a short amount of time.
                   I had the pleasure of working on an array of exciting projects with a plethora of talented teams. I even had the opportunity to fulfill roles in leadership positions, which have facilitated a wealth of personal growth. 
                   I'll forever be grateful for this experience, as it has turned my life around and benifited me in every possible way.
                   <br/>
@@ -52,12 +51,7 @@ export default class About extends React.Component{
                   Best regards,
                   <br/>
                   <br/>
-                  Ryan
-        
-                
-                   
-
-                  
+                  Ryan  
                 </p>
               </div> 
             </div> 

@@ -34,7 +34,7 @@ export default class Navigation extends React.Component{
                       
                     </div> 
                     <div>
-                      <a href='https://www.linkedin.com/in/ryan-mclaughlin-05a529188/'>
+                      <a href='https://www.linkedin.com/in/ryan-l-mclaughlin'>
                         <i className="fab fa-linkedin"></i>
                       </a>
                       <a href='https://www.facebook.com/ryan.mclaughlin.9887'>
