@@ -2,6 +2,7 @@ import React from 'react'
 import '../Styles/Projects/Projects.css'
 import {Link} from 'react-router-dom'
 
+const pickemImg = require('./pickem-home.jpg')
 const image = require('./mw-image2.PNG')
 
 export default class Projects extends React.Component{
@@ -15,7 +16,7 @@ export default class Projects extends React.Component{
               <div className='project'>
                 <h1>Pickem</h1>  
                 <div className='project-image'>
-                  <img alt='pickem site'className='project-img'></img> 
+                  <img src={pickemImg} className='project-img'/>
                 </div>
                 <p>A site for investors of all levels</p>
                 <Link to='pickem' style={{color:'#0000EE'}}>Learn More</Link>

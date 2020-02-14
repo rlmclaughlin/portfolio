@@ -151,7 +151,6 @@
 }
 
 .pickem-img{
-    background: url('../../Images/pickem-home.jpg');
     background-position: bottom;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -162,7 +161,6 @@
 
 
 .pickem-img-2{
-    background: url('../../Images/Untitled.png');
     background-position: bottom;
     background-size: cover; 
     background-repeat: no-repeat; 

@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Styles/Projects/pickem.css'
 
+const bannerImage = require('./pickem-home.jpg')
+const pickemImage = require('./Untitled.png')
 
 export default class Pickem extends React.Component{
 
@@ -14,7 +16,7 @@ export default class Pickem extends React.Component{
                 </div> 
                 <div className='row-1'>
                   <div className='showcase-image'>
-                    <img alt='pickem website logo' className='pickem-img'></img> 
+                    <img src={bannerImage} alt='pickem banner' className='pickem-img' />
                   </div>
                   <div className='section-2'>
                     <h2>What is Pickem?</h2>
@@ -32,7 +34,7 @@ export default class Pickem extends React.Component{
 
                 <div className='row-2'>
                   <div className='showcase-image-2'>
-                    <img alt='hey' className='pickem-img-2'/>
+                    <img src={pickemImage} alt='pickem graph' className='pickem-img-2'/>
                   </div>                 
                   <div className='list'>
                     <h2>Built Using</h2>
