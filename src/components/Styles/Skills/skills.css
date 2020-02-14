@@ -26,7 +26,7 @@
     text-decoration: underline; 
     color: white; 
     letter-spacing: 2px; 
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 2, 96), 0 0 5px rgb(139, 0, 86);
 }
 
 .skills-content{
@@ -65,7 +65,7 @@
 
 .skill-bubble{
     font-weight: 700; 
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 2, 96), 0 0 5px rgb(139, 0, 86);
     padding: 5px;
     display: flex; 
     flex-wrap: wrap; 
@@ -73,6 +73,7 @@
     justify-content: center; 
     background-size: cover; 
     background-position: center; 
+    border-radius: 5px; 
     min-width: 80px; 
     margin: 10px;
     border: 1px solid rgb(255, 0, 119); 

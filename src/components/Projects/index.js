@@ -18,7 +18,7 @@ export default class Projects extends React.Component{
                   <img alt='pickem site'className='project-img'></img> 
                 </div>
                 <p>A site for investors of all levels</p>
-                <Link to='pickem'>Visit Pickem</Link>
+                <Link to='pickem' style={{color:'#0000EE'}}>Learn More</Link>
               </div>  
               <div className='project'>
                 <h1>Mariannas Web</h1>  
@@ -26,7 +26,7 @@ export default class Projects extends React.Component{
                   <img alt='hyper prism site' src={image} className='project-img2'/>
                 </div>
                 <p>News for the 21st century</p>
-                <Link to='/mariannasWeb'> Mariannas Web</Link>
+                <Link to='/mariannasWeb' style={{color:'#0000EE'}}>Learn More</Link>
               </div>   
             </div> 
         )
