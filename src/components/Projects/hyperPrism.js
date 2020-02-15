@@ -59,7 +59,7 @@ export default class MariannasWeb extends React.Component{
                 </div>
                 <div className='contributions-container'>
                   <h2>Contributions</h2> 
-                  <p>This was a personal project.</p> 
+                  <p>All contributions for Mariannas Web were completed by me</p> 
                 </div> 
             </div> 
         )
