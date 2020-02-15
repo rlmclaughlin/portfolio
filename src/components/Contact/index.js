@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Styles/Contact/contact.css'
 
+const contactImage = require('./contact-image.jpg')
+
 export default class Contact extends React.Component{
 
     render(){
@@ -8,7 +10,7 @@ export default class Contact extends React.Component{
             <div className='contact-container'>
                 <h1 className='mobile-header'>Contact Me</h1>   
                 <div className='image'> 
-                  <img alt="sun-glare" src='https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'/>
+                  <img alt="sun-glare" src={contactImage}/>
                 </div> 
                 <hr/> 
                 <div className='contact'>
