@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/Projects/hyperprism.css'
+import '../Styles/Projects/pickem.css'
 
 const image1 = require('./mw-image.PNG')
 const imageThumb = require('./mw-image-thumb.png')
