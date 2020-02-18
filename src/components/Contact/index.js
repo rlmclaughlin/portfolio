@@ -15,8 +15,8 @@ export default class Contact extends React.Component{
                 <hr/> 
                 <div className='contact'>
                   <h1>Contact Me</h1> 
-                  <p>Facebook: <a href='https://www.facebook.com/ryan.mclaughlin.9887'>Visit Here</a></p>
-                  <p> LinkedIn: <a href='https://www.linkedin.com/in/ryan-l-mclaughlin'>Visit Here</a></p> 
+                  <p>Facebook: <a style={{color:'#0000EE'}} href='https://www.facebook.com/ryan.mclaughlin.9887'>Visit Here</a></p>
+                  <p>LinkedIn: <a style={{color:'#0000EE'}} href='https://www.linkedin.com/in/ryan-l-mclaughlin'>Visit Here</a></p> 
                   <p>Phone: 972-974-8268</p>
                   <p>Email: rlmclaughlin@yahoo.com</p>
                 </div>  

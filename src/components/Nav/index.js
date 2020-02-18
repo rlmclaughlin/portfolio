@@ -39,10 +39,10 @@ export default class Navigation extends React.Component{
                         <i className="fab fa-facebook"></i>
                       </a>     
                       <a href='https://www.rlmclaughlin.com/Contact'>                 
-                        <i className="far fa-envelope desktop-envelope"></i>  
+                        <i style={{color: "white"}} className="far fa-envelope desktop-envelope"></i>  
                       </a>                   
                       <a href='https://github.com/rlmclaughlin'>
-                        <i className="fab fa-github"></i>
+                        <i  className="fab fa-github"></i>
                       </a>
                     </div> 
                 </nav> 
