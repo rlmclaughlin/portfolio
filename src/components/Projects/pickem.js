@@ -61,15 +61,13 @@ export default class Pickem extends React.Component{
                   <hr className='hr'/>
                 </div>
                 <div className='contributions-container'>
-                  <h2>Contributions</h2> 
-                
+                  <h2>Contributions</h2>                
                   <p>Homepage Stock Ticker</p>
                   <p>Member Dashboard</p>
                   <p>Member Dashboard Stock Ticker</p> 
                   <p>Add Stock to Favorites</p> 
                   <p>Favorite Stocks Screen</p> 
-                  <p>Glossary of Financial Teams</p> 
-      
+                  <p>Glossary of Financial Teams</p>     
                 </div> 
             </div> 
         )
