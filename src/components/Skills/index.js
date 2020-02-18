@@ -13,7 +13,7 @@ export default class Skills extends React.Component{
               <div className='horizontal-rule-skills'> 
                 <hr />
               </div> 
-              <h2>Front End</h2>
+              <h2 style={{width:'100%', textAlign: 'center'}}>Front End</h2>
               <div className='skills-main-content'>
                 <div className='skill-bubble'><span>HTML/CSS</span></div> 
                 <div className='skill-bubble'>LESS</div>  
@@ -37,7 +37,6 @@ export default class Skills extends React.Component{
                 <div className='skill-bubble'>Puppeteer</div> 
                 <div className='skill-bubble'>JWT</div> 
               </div>
-              <br/>
               <h2 style={{width:'100%', textAlign: 'center'}}>Other</h2>
               <div className='skills-main-content'>
                 <div className='skill-bubble'>GitHub</div> 
