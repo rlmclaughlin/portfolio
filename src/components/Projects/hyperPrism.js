@@ -25,7 +25,7 @@ export default class MariannasWeb extends React.Component{
                        members that provides access to a private feed, a customizable feed, and the ability to post articles. 
                        Come join the experiment designed to break you out of your echo chamber and discover fresh perspectives.   
                      </p> 
-                    <a href='https://www.mariannasweb.com/'>Visit Site</a> 
+                    <a href='https://www.mariannasweb.com/' style={{fontWeight: '800', color:'#0000EE'}}>Visit Site</a> 
                   </div> 
                 </div> 
                 <div className='showcase-hr'> 
@@ -51,7 +51,7 @@ export default class MariannasWeb extends React.Component{
                           <li>Facebook API</li> 
                         </ul> 
                       </div> 
-                     <a style={{width: '100%', textAlign: 'center' }}href='https://github.com/mariannas-web'>Github Repo</a>                     
+                     <a style={{width: '100%', fontWeight: '800', textAlign: 'center', color: '#0000EE'}}href='https://github.com/mariannas-web'>Github Repo</a>                     
                     </div> 
                 </div>
                 <div className='showcase-hr'> 

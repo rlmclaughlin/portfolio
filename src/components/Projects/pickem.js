@@ -24,7 +24,7 @@ export default class Pickem extends React.Component{
                        better investment decisions. Our easy to use app provides both beginner and sophisticated
                        investors with an automated system that analyzes key financial indicators. Pickem will 
                        allow the customer to determine whether a buy signal is warranted.</p> 
-                    <a href='https://getpickem.co/'>Visit Site</a> 
+                    <a href='https://getpickem.co/' style={{fontWeight: '800', color:'#0000EE'}}>Visit Site</a> 
                   </div> 
 
                 </div> 
@@ -52,7 +52,7 @@ export default class Pickem extends React.Component{
                           <li>UI</li> 
                         </ul> 
                       </div> 
-                     <a style={{width: '100%', textAlign: 'center' }}href='https://github.com/Lambda-School-Labs/labspt2-investor-data-app'>Github Repo</a> 
+                     <a style={{width: '100%', textAlign: 'center', fontWeight: '800', color: '#0000EE'}}href='https://github.com/Lambda-School-Labs/labspt2-investor-data-app'>Github Repo</a> 
                      
                     </div> 
 
